@@ -1,9 +1,11 @@
-//document.body.style.backgroundColor = listaCores[4];
-//Math.random => gera números decimais aleatórios entre 0 e 1
-//Math.floor => retorna o piso de um número decimal- ex: Math.floor(5.789797) = 5 
-//x.length=> retorna um número com o tamanho da variável x
-//setInterval(x,y)=> executa uma tarefa x num intervalo de tempo y em milissegundos
-//console.log()=> para imprimir algo no terminal
+/*
+document.body.style.backgroundColor = listaCores[4];
+Math.random => gera números decimais aleatórios entre 0 e 1
+Math.floor => retorna o piso de um número decimal- ex: Math.floor(5.789797) = 5 
+x.length=> retorna um número com o tamanho da variável x
+setInterval(x,y)=> executa uma tarefa x num intervalo de tempo y em milissegundos
+console.log()=> para imprimir algo no terminal
+*/
 
 let listaCores = ['yellow' , 'blue' , 'red' , 'green' , 'pink' , 'grey' , 'brown'];
 console.log(listaCores)
