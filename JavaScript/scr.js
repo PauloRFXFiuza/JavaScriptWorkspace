@@ -24,11 +24,36 @@ console.log( PERSON ); console.log( person ) ;
 var pote= "Bombom" ; alert( pote ) ;
 var a= 2 , b= 3 , c= a + b ; alert( c ) ;
 
-// No var, é possível a reatribuição de valores, conforme mostrado abaixo:
+// No var, é possível a redeclaração de variáveis e reatribuição de valores, conforme mostrado abaixo:
 var a= 2 ; console.log( a ) ;
-a= 5 ; console.log( a ) ;
-*/
+var a= 5 ; console.log( a ) ;
+
 var nome= "Paulo" , sobrenome= "Fiuza" , nomeCompleto= nome + sobrenome ;
 document.getElementById("text").innerHTML= nomeCompleto ;
 
 nomeCompleto= nome + " " + sobrenome ; document.getElementById("text2").innerHTML= nomeCompleto ;
+*/
+// no let, não é possível a redeclaração de variáveis, conforme mostrado abaixo:
+//let a = 5;
+//let a = 2;  // Impressão no console - Uncaught SyntaxError: Identifier 'a' has already been declared (at scr.js:38:5)
+// no let, porém, é possível a reatribuição de valores, conforme mostrado abaixo:
+//let a= 5 ; console.log( a );
+//a= 2; console.log( a ) ;
+
+//Diferenças entre var e let, quando se usa escopo (bloco de código)
+
+var x= 10; //aqui x = 10
+
+{
+    var x= 2; //aqui x = 2 
+}
+
+document.getElementById("text").innerHTML= x; //aqui y = 2
+
+let y= 10; //aqui y = 10
+
+{
+    let y= 2; //aqui y = 2 
+}
+
+document.getElementById("text2").innerHTML= y; //aqui y = 10
