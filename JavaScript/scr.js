@@ -70,6 +70,11 @@ document.getElementById("text2").innerHTML= y; //aqui y = 10
 // Impressão no console - scr.js:69 Uncaught TypeError: Assignment to constant variable. at scr.js:69:2
 */
 /* 07 */
-let valor1= 5 , valor2= 2 , total= valor1 + valor2 ; console.log( valor1 + " + " + valor2 + " = " + total ) ;
+let valor1= 5 , valor2= 2 , total= valor1 + valor2 ; 
+console.log( "A variável valor1 possui valor inicial de: " + valor1 ) ;
+console.log( "A variável valor2 possui valor inicial de: " + valor2 ) ;
+console.log( valor1 + " + " + valor2 + " = " + total ) ;
 total= ++valor1; console.log( "A variável total se tornou igual a: " + total ) ; 
+console.log( "A variável valor1 se tornou igual a: " + valor1 ) ;
+total= --valor1; console.log( "A variável total se tornou igual a: " + total ) ; 
 console.log( "A variável valor1 se tornou igual a: " + valor1 ) ; 
