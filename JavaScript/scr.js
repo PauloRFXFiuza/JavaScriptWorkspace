@@ -10,9 +10,14 @@ let a,b,c; a=5,b=6,c=7;
 function f() { document.write(a); document.write(b); }
 document.write( f() );
 */
-/* 04 */
-console.log(5+5); console.log("5+5");
+/* 04
+console.log( 5+5 ) ; console.log( "5+5" ) ;
 var a= 1, b=5, c= a+b, d= a*b, e= a/b, f= a-b ;
-console.log(c,d,e,f);
-var person= "John", PERSON= "Lennon"; 
-console.log(PERSON); console.log(person);
+console.log( c,d,e,f ) ;
+var person= "John", PERSON= "Lennon" ; 
+console.log( PERSON ); console.log( person ) ;
+*/
+/* 05 
+//Hi! /*Hi*/ 
+/* 06 */
+var pote= "Bombom"; alert( pote );
