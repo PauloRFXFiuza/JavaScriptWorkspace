@@ -88,26 +88,38 @@ console.log( "valor1 = valor1 + valor2 e valor1 += valor2 têm sintaxes equivale
 // O mesmo vale para: valor1 = valor1 * valor2 e valor1 *= valor2
 // O mesmo vale para: valor1 = valor1 / valor2 e valor1 /= valor2
 
-*/
-
 let valor1= 8 , valor2= 10 , comparacao ;
 console.log( "A variável valor1 possui valor inicial de: " + valor1 ) ;
 console.log( "A variável valor2 possui valor inicial de: " + valor2 ) ;
+
 comparacao= valor1 === valor2 ; 
 console.log( "valor1 === valor2 = " + comparacao ) ;
 console.log( "O valor1 é igual ao valor2 ? = " + comparacao ) ;
+
 comparacao= valor1 !== valor2 ; 
 console.log( "valor1 !== valor2 = " + comparacao ) ;
 console.log( "O valor1 é diferente do valor2 ? = " + comparacao ) ;
+
 comparacao= valor1 < valor2 ; 
 console.log( "valor1 < valor2 = " + comparacao ) ;
 console.log( "O valor1 é menor que o valor2 ? = " + comparacao ) ;
+
 comparacao= valor1 <= valor2 ; 
 console.log( "valor1 <= valor2 = " + comparacao ) ;
 console.log( "O valor1 é menor ou igual ao valor2 ? = " + comparacao ) ;
+
 comparacao= valor1 > valor2 ; 
 console.log( "valor1 > valor2 = " + comparacao ) ;
 console.log( "O valor1 é maior que o valor2 ? = " + comparacao ) ;
+
 comparacao= valor1 >= valor2 ; 
 console.log( "valor1 >= valor2 = " + comparacao ) ;
 console.log( "O valor1 é maior ou igual ao valor2 ? = " + comparacao ) ;
+
+*/
+
+let idade= 16 , eleitor ; console.log ( "Joãozinho Possui: " + idade + " Anos." ) ;
+// operador ternário - (condição) ? "valor se condição for falsa (false)" : "valor se condição for verdaeira (true)"
+// ? - no contexto equivale a uma pergunta - exemplo abaixo:
+eleitor= ( idade < 16 ) ? "Ainda não é um eleitor. Calma!" : "Eleitor, te esperamos na urna!";
+console.log( eleitor );
