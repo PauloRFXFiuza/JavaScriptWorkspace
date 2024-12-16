@@ -118,8 +118,8 @@ console.log( "O valor1 é maior ou igual ao valor2 ? = " + comparacao ) ;
 
 */
 
-let idade= 16 , eleitor ; console.log ( "Joãozinho Possui: " + idade + " Anos." ) ;
-// operador ternário - (condição) ? "valor se condição for falsa (false)" : "valor se condição for verdaeira (true)"
+let idade= 15 , eleitor ; console.log ( "Joãozinho Possui: " + idade + " Anos." ) ;
+// operador ternário - (condição) ? "valor se condição for verdaeira (true)" : "valor se condição for falsa (false)"
 // ? - no contexto equivale a uma pergunta - exemplo abaixo:
 eleitor= ( idade < 16 ) ? "Ainda não é um eleitor. Calma!" : "Eleitor, te esperamos na urna!";
 console.log( eleitor );
