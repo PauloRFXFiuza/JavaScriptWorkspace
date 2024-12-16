@@ -116,10 +116,25 @@ comparacao= valor1 >= valor2 ;
 console.log( "valor1 >= valor2 = " + comparacao ) ;
 console.log( "O valor1 é maior ou igual ao valor2 ? = " + comparacao ) ;
 
-*/
+
 
 let idade= 15 , eleitor ; console.log ( "Joãozinho Possui: " + idade + " Anos." ) ;
 // operador ternário - (condição) ? "valor se condição for verdaeira (true)" : "valor se condição for falsa (false)"
 // ? - no contexto equivale a uma pergunta - exemplo abaixo:
-eleitor= ( idade < 16 ) ? "Ainda não é um eleitor. Calma!" : "Eleitor, te esperamos na urna!";
-console.log( eleitor );
+eleitor= ( idade < 16 ) ? "Ainda não é um eleitor. Calma!" : "Eleitor, te esperamos na urna!" ;
+console.log( eleitor ) ;
+
+*/
+
+let numero = 10, intervalo ; console.log( "O número escolhido foi: " + numero ) ;
+intervalo = ( numero >= 60 && numero <= 70 ) ? 
+("O número " + numero + " Está no intervalo entre 60 e 70.") : 
+("O número " + numero + " Não está no intervalo entre 60 e 70.") ;
+console.log( intervalo ) ;
+
+let comparacao;
+numero = 50; console.log( "O número escolhido foi: " + numero ) ;
+comparacao = ( numero >= 70 || numero <= 0 ) ? 
+("O número " + numero + " É maior ou igual a 70 Ou menor ou igual a 0.") : 
+("O número " + numero + " Não é maior ou igual a 70 Ou menor ou igual a 0") ;
+console.log( comparacao ) ;
