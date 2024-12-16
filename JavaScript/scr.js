@@ -69,7 +69,7 @@ document.getElementById("text2").innerHTML= y; //aqui y = 10
 //a= 3; console.log( a ) ;
 // Impressão no console - scr.js:69 Uncaught TypeError: Assignment to constant variable. at scr.js:69:2
 */
-/* 07 */
+/* 07 
 let valor1= 5 , valor2= 2 , total= valor1 + valor2 ; 
 console.log( "A variável valor1 possui valor inicial de: " + valor1 ) ;
 console.log( "A variável valor2 possui valor inicial de: " + valor2 ) ;
@@ -78,7 +78,24 @@ total= ++valor1; console.log( "A variável total se tornou igual a: " + total ) 
 console.log( "A variável valor1 se tornou igual a: " + valor1 ) ;
 total= --valor1; console.log( "A variável total se tornou igual a: " + total ) ; 
 console.log( "A variável valor1 se tornou igual a: " + valor1 ) ;
+// valor1 = valor1 + valor2 e valor1 += valor2 têm sintaxes equivalentes
 valor1 = valor1 + valor2; 
 console.log( "valor1 = valor1 + valor2 = " + valor1 ) ;
 valor1 += valor2;
-console.log( "valor1 = valor1 + valor2 e valor1 += valor2 têm sintaxes equivalentes, portanto valor1 possui agora o valor: " + valor1) ;
+console.log( "valor1 = valor1 + valor2 e valor1 += valor2 têm sintaxes equivalentes,"+
+             "portanto valor1 possui agora o valor: " + valor1 ) ;
+// O mesmo vale para: valor1 = valor1 - valor2 e valor1 -= valor2
+// O mesmo vale para: valor1 = valor1 * valor2 e valor1 *= valor2
+// O mesmo vale para: valor1 = valor1 / valor2 e valor1 /= valor2
+
+*/
+
+let valor1= 8 , valor2= 10 , comparacao ;
+console.log( "A variável valor1 possui valor inicial de: " + valor1 ) ;
+console.log( "A variável valor2 possui valor inicial de: " + valor2 ) ;
+comparacao= valor1 === valor2 ; 
+console.log( "valor1 === valor2 = " + comparacao ) ;
+console.log( "O valor1 é igual ao valor2 ? = " + comparacao ) ;
+comparacao= valor1 !== valor2 ; 
+console.log( "valor1 !== valor2 = " + comparacao ) ;
+console.log( "O valor1 é diferente do valor2 ? = " + comparacao ) ;
