@@ -138,3 +138,9 @@ comparacao = ( numero >= 70 || numero <= 0 ) ?
 ("O número " + numero + " É maior ou igual a 70 Ou menor ou igual a 0.") : 
 ("O número " + numero + " Não é maior ou igual a 70 Ou menor ou igual a 0") ;
 console.log( comparacao ) ;
+
+numero = 10, intervalo ; console.log( "O número escolhido foi: " + numero ) ;
+intervalo = ! ( numero >= 60 && numero <= 70 ) ? 
+("O número " + numero + " Não está no intervalo entre 60 e 70.") : 
+("O número " + numero + " Está no intervalo entre 60 e 70.") ;
+console.log( intervalo ) ;
