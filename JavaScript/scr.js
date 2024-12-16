@@ -19,5 +19,16 @@ console.log( PERSON ); console.log( person ) ;
 */
 /* 05 
 //Hi! /*Hi*/ 
-/* 06 */
-var pote= "Bombom"; alert( pote );
+// 06 
+/*
+var pote= "Bombom" ; alert( pote ) ;
+var a= 2 , b= 3 , c= a + b ; alert( c ) ;
+
+// No var, é possível a reatribuição de valores, conforme mostrado abaixo:
+var a= 2 ; console.log( a ) ;
+a= 5 ; console.log( a ) ;
+*/
+var nome= "Paulo" , sobrenome= "Fiuza" , nomeCompleto= nome + sobrenome ;
+document.getElementById("text").innerHTML= nomeCompleto ;
+
+nomeCompleto= nome + " " + sobrenome ; document.getElementById("text2").innerHTML= nomeCompleto ;
