@@ -124,8 +124,6 @@ let idade= 15 , eleitor ; console.log ( "Joãozinho Possui: " + idade + " Anos."
 eleitor= ( idade < 16 ) ? "Ainda não é um eleitor. Calma!" : "Eleitor, te esperamos na urna!" ;
 console.log( eleitor ) ;
 
-*/
-
 let numero = 10, intervalo ; console.log( "O número escolhido foi: " + numero ) ;
 intervalo = ( numero >= 60 && numero <= 70 ) ? 
 ("O número " + numero + " Está no intervalo entre 60 e 70.") : 
@@ -144,3 +142,5 @@ intervalo = ! ( numero >= 60 && numero <= 70 ) ?
 ("O número " + numero + " Não está no intervalo entre 60 e 70.") : 
 ("O número " + numero + " Está no intervalo entre 60 e 70.") ;
 console.log( intervalo ) ;
+
+*/
