@@ -151,6 +151,15 @@ function soma( valor1 , valor2 ) {
     return valor1 + valor2 ;
 }
 
+function realParaDolar( real , cotacaoDolar ) {
+    return real / cotacaoDolar ;
+}
+
 // document.getElementById( "text" ).innerHTML = soma( 10 , 23 ) ;
-let total = soma( 10 , 23 ) ;
+let total = soma( 10 , 23 ) , valorReal = 1000 , cotacaoHoje = 6.15;
 console.log( total ) ;
+console.log( soma( 100 , 1023 ) ) ;
+console.log( soma( 100 , 1023 ) ) ;
+console.log( realParaDolar( 100 , 6.10 ) ) ;
+console.log( "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ) ;
+document.getElementById( "text" ).innerHTML = "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ;
