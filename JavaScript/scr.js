@@ -184,18 +184,22 @@ temperaturaFahrenheit + "°F equivalem-se a " + fahrenheitParaCelsius( temperatu
 let car= "ford" ;
 // objetos são criados para se ter vários valores e se usa comumente o const
 
-/*
+/* Exemplo de objeto literal, onde os valores já são definidos
 const objeto= {
     propriedade1: valor1 ,
     propriedade2: valor2 ,
     propriedade3: valor3 ,
     ...
-    propriedadeN: valorN 
+    propriedadeN: valorN ,
+    metodo1: function1(){} ,
+    ...
+    metodoM: functionM(){}
 }
 */
 const carro= {
     marca: "ford" ,
     modelo: "ka" ,
     ano: 2015 ,
-    placa: "ABC-1234"
+    placa: "ABC-1234",
+    buzina: function( ) { alert( "BiBiiiiii!" ) }
 };
