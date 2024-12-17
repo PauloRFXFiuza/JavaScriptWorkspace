@@ -162,4 +162,5 @@ console.log( soma( 100 , 1023 ) ) ;
 console.log( soma( 100 , 1023 ) ) ;
 console.log( realParaDolar( 100 , 6.10 ) ) ;
 console.log( "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ) ;
-document.getElementById( "text" ).innerHTML = "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ;
+document.getElementById( "text" ).innerHTML = 
+"Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ;
