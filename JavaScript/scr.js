@@ -269,3 +269,10 @@ function esclarecer() {
     div.style.backgroundColor= "blue" ;
     div.style.color = "white" ;
 }
+
+function addText() {
+    let p= document.getElementById( "text3" ) ;
+    p.append("Hi, World! ") ;
+    p.style.backgroundColor= "gray" ;
+    p.style.color = "black" ;
+}
