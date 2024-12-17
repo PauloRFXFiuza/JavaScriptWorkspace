@@ -146,3 +146,9 @@ console.log( intervalo ) ;
 
 */
 /* 08 */
+
+function soma( valor1 , valor2 ) {
+    return valor1 + valor2 ;
+}
+
+document.getElementById( "text" ).innerHTML = soma( 10 + 10) ;
