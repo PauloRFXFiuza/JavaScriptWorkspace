@@ -147,6 +147,12 @@ console.log( intervalo ) ;
 */
 /* 08 */
 
+
+// Função para dar uma alerta de saudação aos usuários
+function alertaHi() {
+    alert( "Hi, people!" ) ;
+} 
+
 // Função para somar dois números
 function soma( valor1 , valor2 ) {
     return valor1 + valor2 ;
@@ -158,7 +164,7 @@ function realParaDolar( real , cotacaoDolar ) {
 }
 
 // document.getElementById( "text" ).innerHTML = soma( 10 , 23 ) ;
-let total = soma( 10 , 23 ) , valorReal = 1000 , cotacaoHoje = 6.15;
+let total = soma( 10 , 23 ) , valorReal = 10000000000 , cotacaoHoje = 6.15;
 console.log( total ) ;
 console.log( soma( 100 , 1023 ) ) ;
 console.log( soma( 100 , 1023 ) ) ;
