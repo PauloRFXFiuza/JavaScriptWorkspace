@@ -281,6 +281,11 @@ function retornaTexto() {
 function changed() {
     console.log( document.getElementById( "items" ).value )
 }
+
+function registroTeclas(){
+    let input = document.getElementById( "campoTexto" ).value
+    console.log(input);
+}
 /*
 function addText() {
     let p= document.getElementById( "text3" ) ;
