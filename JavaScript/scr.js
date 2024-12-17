@@ -274,6 +274,9 @@ function limpaTexto() {
     document.getElementById( "campoTexto" ).value= "";
 }
 
+function changed() {
+    console.log( document.getElementById( "items" ).value )
+}
 /*
 function addText() {
     let p= document.getElementById( "text3" ) ;
