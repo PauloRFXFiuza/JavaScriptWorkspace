@@ -173,4 +173,4 @@ console.log( "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + r
 document.getElementById( "text" ).innerHTML = 
 "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ;
 
-alertaHi() ;
+// alertaHi() ;
