@@ -201,9 +201,22 @@ const carro= {
     modelo: "ka" ,
     ano: 2015 ,
     placa: "ABC-1234",
-    buzina: function( ) { alert( "BiBiiiiii!" ) }
+    buzina: function( ) { alert( "BiBiiiiii!" ) },
+    completoConsole: function ( ) {
+        return "Informações do carro:\nMarca - " + this.marca + ";\nModelo - " + this.modelo 
+        + ";\nAno - " + this.ano + ";\nPlaca - " + this.placa ;
+    },
+    completoHTML: function ( ) {
+        return "Informações do carro:<br>Marca - " + this.marca + ";<br>Modelo - " + this.modelo 
+        + ";<br>Ano - " + this.ano + ";<br>Placa - " + this.placa ;
+    }
 };
 // Imprimindo e Extraindo valores dos objetos
 console.log( carro ) ;
 console.log( carro.ano ) ;
-// document.getElementById( "text" ).innerHTML = carro;
+console.log( carro[ "marca" ] ) ;
+console.log( carro.placa , carro.marca , carro.modelo ) ;
+console.log( carro[ "placa" ] , carro[ "modelo" ] , carro[ "marca" ] ) ;
+document.getElementById( "text" ).innerHTML = carro.completoHTML();
+console.log( carro.completoConsole() )
+//carro.buzina() ;
