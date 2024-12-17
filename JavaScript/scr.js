@@ -179,12 +179,13 @@ document.getElementById( "text2" ).innerHTML =
 temperaturaFahrenheit + "°F equivalem-se a " + fahrenheitParaCelsius( temperaturaFahrenheit ) + "°C." ;
 // alertaHi() ;
 */
-/* 09 */
+/* 09
+
 // variáveis muitas vezes possuem apenas um valor
 let car= "ford" ;
 // objetos são criados para se ter vários valores e se usa comumente o const
 
-/* Exemplo de objeto literal, onde os valores já são definidos
+// /* Exemplo de objeto literal, onde os valores já são definidos
 const objeto= {
     propriedade1: valor1 ,
     propriedade2: valor2 ,
@@ -195,7 +196,7 @@ const objeto= {
     ...
     metodoM: functionM(){}
 }
-*/
+//
 const carro= {
     marca: "ford" ,
     modelo: "ka" ,
@@ -220,3 +221,7 @@ console.log( carro[ "placa" ] , carro[ "modelo" ] , carro[ "marca" ] ) ;
 document.getElementById( "text" ).innerHTML = carro.completoHTML();
 console.log( carro.completoConsole() )
 //carro.buzina() ;
+*/
+/* 10 
+a=1;
+*/
