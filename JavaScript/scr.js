@@ -252,7 +252,14 @@ function darkTheme() {
     document.body.style.backgroundColor = "black" ;
     document.body.style.color = "white" ;
 }
+
 function lightTheme() {
     document.body.style.backgroundColor = "white" ;
     document.body.style.color = "black" ;
+}
+
+function escurecer() {
+    let div= document.getElementById( "teste" ) ;
+    div.style.backgroundColor= "darkblue" ;
+    div.style.color = "gray" ;
 }
