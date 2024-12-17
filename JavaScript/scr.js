@@ -263,3 +263,9 @@ function escurecer() {
     div.style.backgroundColor= "darkblue" ;
     div.style.color = "gray" ;
 }
+
+function esclarecer() {
+    let div= document.getElementById( "teste" ) ;
+    div.style.backgroundColor= "blue" ;
+    div.style.color = "white" ;
+}
