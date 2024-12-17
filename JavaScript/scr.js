@@ -248,6 +248,11 @@ onresize -> Disparado quando há um redimensionamento da janela.
 a=1;
 */
 
-function eventoClick() {
-    alert( "Evento de clique acionado com sucesso!" ) ;
+function darkTheme() {
+    document.body.style.backgroundColor = "black" ;
+    document.body.style.color = "white" ;
+}
+function lightTheme() {
+    document.body.style.backgroundColor = "white" ;
+    document.body.style.color = "black" ;
 }
