@@ -274,6 +274,10 @@ function limpaTexto() {
     document.getElementById( "campoTexto" ).value= "";
 }
 
+function retornaTexto() {
+    document.getElementById( "campoTexto" ).value= "Hi guys! Type Here";
+}
+
 function changed() {
     console.log( document.getElementById( "items" ).value )
 }
