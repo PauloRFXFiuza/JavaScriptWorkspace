@@ -149,7 +149,7 @@ console.log( intervalo ) ;
 
 
 // Função para dar uma alerta de saudação aos usuários
-function alertaHi() {
+function alertaHi(  ) {
     alert( "Hi, people!" ) ;
 } 
 
@@ -172,3 +172,5 @@ console.log( realParaDolar( 100 , 6.10 ) ) ;
 console.log( "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ) ;
 document.getElementById( "text" ).innerHTML = 
 "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ;
+
+alertaHi() ;
