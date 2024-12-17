@@ -147,10 +147,12 @@ console.log( intervalo ) ;
 */
 /* 08 */
 
+// Função para somar dois números
 function soma( valor1 , valor2 ) {
     return valor1 + valor2 ;
 }
 
+// Função para converter a moeda Real para a moeda Dólar
 function realParaDolar( real , cotacaoDolar ) {
     return real / cotacaoDolar ;
 }
