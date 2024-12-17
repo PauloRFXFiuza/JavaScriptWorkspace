@@ -203,3 +203,7 @@ const carro= {
     placa: "ABC-1234",
     buzina: function( ) { alert( "BiBiiiiii!" ) }
 };
+// Imprimindo e Extraindo valores dos objetos
+console.log( carro ) ;
+console.log( carro.ano ) ;
+// document.getElementById( "text" ).innerHTML = carro;
