@@ -222,8 +222,7 @@ document.getElementById( "text" ).innerHTML = carro.completoHTML();
 console.log( carro.completoConsole() )
 //carro.buzina() ;
 */
-/* 10 */ 
-/*
+/* 10 
 EVENTOS*
 Eventos são ações disparadas pela interação dos usuários na página.
 É o correto manejo desses eventos que tornam as páginas interativas e dinâmicas.
@@ -246,7 +245,7 @@ onkeyup -> Disparado quando uma tecla é solta sobre um elemento.
 onload -> Disparado quando a página terminou de ser carregada. Body.
 onresize -> Disparado quando há um redimensionamento da janela.
 a=1;
-*/
+
 
 function darkTheme() {
     document.body.style.backgroundColor = "black" ;
@@ -290,11 +289,13 @@ function registroTeclas(){
 function loadComplete(){
     console.log("Página Carregada Com Sucesso!");
 }
-/*
+//
 function addText() {
     let p= document.getElementById( "text3" ) ;
     p.append("Hi, World! ") ;
     p.style.backgroundColor= "gray" ;
     p.style.color = "black" ;
 }
+
 */
+/* 11 */
