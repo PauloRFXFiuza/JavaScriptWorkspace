@@ -286,6 +286,10 @@ function registroTeclas(){
     let input = document.getElementById( "campoTexto" ).value
     console.log(input);
 }
+
+function loadComplete(){
+    console.log("Página Carregada Com Sucesso!");
+}
 /*
 function addText() {
     let p= document.getElementById( "text3" ) ;
