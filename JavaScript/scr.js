@@ -180,9 +180,20 @@ temperaturaFahrenheit + "°F equivalem-se a " + fahrenheitParaCelsius( temperatu
 // alertaHi() ;
 */
 /* 09 */
+// variáveis muitas vezes possuem apenas um valor
+let car= "ford" ;
+// objetos são criados para se ter vários valores e se usa comumente o const
 
-let carro= "ford" ;
-carro= {
+/*
+const objeto= {
+    propriedade1: valor1 ,
+    propriedade2: valor2 ,
+    propriedade3: valor3 ,
+    ...
+    propriedadeN: valorN 
+}
+*/
+const carro= {
     marca: "ford" ,
     modelo: "ka" ,
     ano: 2015 ,
