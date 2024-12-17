@@ -145,9 +145,7 @@ intervalo = ! ( numero >= 60 && numero <= 70 ) ?
 console.log( intervalo ) ;
 
 */
-/* 08 */
-
-
+/* 08 
 // Função para dar uma alerta de saudação aos usuários
 function alertaHi(  ) {
     alert( "Hi, people!" ) ;
@@ -180,3 +178,6 @@ document.getElementById( "text" ).innerHTML =
 document.getElementById( "text2" ).innerHTML = 
 temperaturaFahrenheit + "°F equivalem-se a " + fahrenheitParaCelsius( temperaturaFahrenheit ) + "°C." ;
 // alertaHi() ;
+*/
+/* 09 */
+a=1;
