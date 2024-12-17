@@ -180,4 +180,11 @@ temperaturaFahrenheit + "°F equivalem-se a " + fahrenheitParaCelsius( temperatu
 // alertaHi() ;
 */
 /* 09 */
-a=1;
+
+let carro= "ford" ;
+carro= {
+    marca: "ford" ,
+    modelo: "ka" ,
+    ano: 2015 ,
+    placa: "ABC-1234"
+};
