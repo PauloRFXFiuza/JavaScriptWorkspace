@@ -270,9 +270,15 @@ function esclarecer() {
     div.style.color = "white" ;
 }
 
+function limpaTexto() {
+    document.getElementById( "campoTexto" ).value= "";
+}
+
+/*
 function addText() {
     let p= document.getElementById( "text3" ) ;
     p.append("Hi, World! ") ;
     p.style.backgroundColor= "gray" ;
     p.style.color = "black" ;
 }
+*/
