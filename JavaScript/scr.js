@@ -173,7 +173,6 @@ let total = soma( 10 , 23 ) , valorReal = 10000000000 , cotacaoHoje = 6.15;
 let temperaturaFahrenheit = 252, temperaturaCelsius = fahrenheitParaCelsius( temperaturaFahrenheit );
 console.log( total ) ;
 console.log( soma( 100 , 1023 ) ) ;
-console.log( soma( 100 , 1023 ) ) ;
 console.log( realParaDolar( 100 , 6.10 ) ) ;
 console.log( "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ) ;
 document.getElementById( "text" ).innerHTML = 
