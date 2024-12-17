@@ -163,8 +163,14 @@ function realParaDolar( real , cotacaoDolar ) {
     return real / cotacaoDolar ;
 }
 
+// Função para converter temperatura de graus Fahrenheit para graus Celsius
+function fahrenheitParaCelsius( grausFahrenheit ) {
+    return ( 5/9 ) * ( grausFahrenheit - 32 ) ;
+}
+
 // document.getElementById( "text" ).innerHTML = soma( 10 , 23 ) ;
 let total = soma( 10 , 23 ) , valorReal = 10000000000 , cotacaoHoje = 6.15;
+let temperaturaFahrenheit = 252, temperaturaCelsius = fahrenheitParaCelsius( temperaturaFahrenheit );
 console.log( total ) ;
 console.log( soma( 100 , 1023 ) ) ;
 console.log( soma( 100 , 1023 ) ) ;
@@ -172,5 +178,6 @@ console.log( realParaDolar( 100 , 6.10 ) ) ;
 console.log( "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ) ;
 document.getElementById( "text" ).innerHTML = 
 "Hoje, necessita-se de R$ " + valorReal + " para se obter US$ " + realParaDolar( valorReal , cotacaoHoje ) ;
-
+document.getElementById( "text2" ).innerHTML = 
+temperaturaFahrenheit + "°F equivalem-se a " + fahrenheitParaCelsius( temperaturaFahrenheit ) + "°C." ;
 // alertaHi() ;
