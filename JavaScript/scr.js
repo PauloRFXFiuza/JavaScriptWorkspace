@@ -344,5 +344,8 @@ let y=person1[0]; console.log(y);
 console.log(person1.length); //quantidade de itens dentro de uma array
 console.log(person1[person1.length-1]); //para se obter o último item da array
 
+console.log(person1);
 person1.push(true); //para se adicionar um item na array
+console.log(person1);
+person1[person1.length] = false; //outra maneira de se adicionar um item na array
 console.log(person1);
