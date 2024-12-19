@@ -404,7 +404,13 @@ console.log(footballPlayers.reverse()); //Comando para organizar em ordem revers
 
 let numbers = [-1, 10, 21, 54, -210.2, 12012020, 1.2123, 1.2124, 10000.121, -122022020.1];
 console.log(numbers);
-let sortNumbers= numbers.sort(function(a,b){return a-b}); //X.sort(function(a,b){return a-b})- Comando para organizar em ordem numérica uma array X contendo apenas números
+let sortNumbers= numbers.sort( function( a,b ) {return a-b} ); //X.sort(function(a,b){return a-b})- Comando para organizar em ordem numérica uma array X contendo apenas números
 console.log(sortNumbers);
-let reverseSortNumbers= numbers.sort(function(a,b){return b-a}); //X.sort(function(a,b){return b-a})- Comando para organizar em ordem reversa numérica uma array X contendo apenas números
+let reverseSortNumbers= numbers.sort( function( a,b ) {return b-a} ); //X.sort(function(a,b){return b-a})- Comando para organizar em ordem reversa numérica uma array X contendo apenas números
 console.log(reverseSortNumbers);
+
+let maxNumber= Math.max.apply(null,numbers); //Math.max.apply(null,x) - comando que devolve o valor máximo de uma array x
+console.log(maxNumber);
+
+let minNumber= Math.min.apply(null,numbers); //Math.min.apply(null,x) - comando que devolve o valor mínimo de uma array x
+console.log(minNumber);
