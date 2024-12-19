@@ -387,3 +387,7 @@ listaTotal = lista2.concat(lista);
 
 document.getElementById("test3").innerHTML = listaTotal.join(" ");
 console.log(listaTotal);
+
+lista3 = ["alcachofra","côco",1,2,3,4,5];
+listaTotal = lista.concat(lista2, lista3); //Comando para juntar varias arrays
+console.log(listaTotal);
