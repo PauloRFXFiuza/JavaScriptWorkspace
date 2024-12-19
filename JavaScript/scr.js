@@ -353,7 +353,7 @@ console.log(person1);
 console.log(Array.isArray(person1)); //para saber se a variável é uma array (true); se não é (false)
 
 */
-/* 12 */
+/* 12
 
 let lista = ["manga","arroz","feijão","macarrão","leite","linguiça","bisteca"];
 console.log(lista);
@@ -424,3 +424,6 @@ function filtragem(value, index, array) {
 const maioresQue20 = numbers.filter(filtragem);
 
 console.log(maioresQue20);
+*/
+
+/* 13 */ 
