@@ -326,3 +326,6 @@ lista2[2] = "alcaparra";
 lista2[1] = "escargot";
 
 console.log(lista2);
+
+let lista3 = new Array("linguiça","rúcula",0, true); 
+console.log(lista3);
