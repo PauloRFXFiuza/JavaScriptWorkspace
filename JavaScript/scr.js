@@ -392,9 +392,11 @@ lista3 = ["alcachofra","côco",1,2,3,4,5];
 listaTotal = lista.concat(lista2, lista3); //Comando para juntar varias arrays
 console.log(listaTotal);
 //                        [0]       [1]         [2]             [3]         [4]     [5]     [6]     [7]         [8]        [9]
-let footballPlayers = ["Rooney","Cannavaro","James Rodriguez","Ronaldo","Vini Jr","Messi","Modric","Kross","Neymar Jr","Rodrigo Garro"];
+let footballPlayers = ["Rooney","Cannavaro","James Rodriguez","Ronaldo","Vini Jr","Messi","Modric","Kross","Neymar Jr","Rodrigo Garro",0, true];
 console.log(footballPlayers);
 let bestFootballPlayers = footballPlayers.slice(3);// .slice(N) - elimina os itens de uma array antes do índice N
 console.log(bestFootballPlayers);
 let goatFootballPlayer = footballPlayers.slice(5,6);// .slice(N,M) - elimina os itens de uma array antes do índice N e a partir do índice M 
 console.log(goatFootballPlayer);
+
+console.log(footballPlayers.sort()); //Comando para organizar em ordem alfabética 
