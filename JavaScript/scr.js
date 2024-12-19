@@ -375,3 +375,9 @@ lista.splice(4, 1, "cebola", "alho", "pimenta", 3, true)
 document.getElementById("test").innerHTML = lista.join(" ");
 console.log(lista);
 console.log(lista[2]);
+
+let lista2 = ["suco","refrigerante","cerveja","cachaça"];
+console.log(lista2);
+let listaTotal = lista.concat(lista2); //Comando para juntar uma array em outra
+console.log(listaTotal);
+document.getElementById("test2").innerHTML = listaTotal.join(" ");
