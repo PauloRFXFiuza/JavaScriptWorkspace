@@ -349,3 +349,5 @@ person1.push(true); //para se adicionar um item na array
 console.log(person1);
 person1[person1.length] = false; //outra maneira de se adicionar um item na array
 console.log(person1);
+
+console.log(Array.isArray(person1)); //para saber se a variável é uma array (true); se não é (false)
