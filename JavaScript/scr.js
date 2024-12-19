@@ -314,7 +314,15 @@ A lista[1] (lista na posição 1) vai conter o valor "feijão".
 
 E assim por diante.
 */
-
+//             [0]      [1]      [2]       [3]                       
 let lista = ["arroz","feijão","macarrão","leite"];
 console.log(lista[0]);
 console.log(lista[0],lista[1]) ;
+
+let lista2 = [];
+lista2[0] = "salsicha";
+lista2[1] = "ostra";
+lista2[2] = "alcaparra";
+lista2[1] = "escargot";
+
+console.log(lista2);
