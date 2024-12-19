@@ -356,4 +356,6 @@ console.log(Array.isArray(person1)); //para saber se a variável é uma array (t
 /* 12 */
 
 let lista = ["arroz","feijão","macarrão","leite"];
-document.getElementById("test").innerHTML = lista; //Comando Para Copiar array para um elemento do HTML 
+//document.getElementById("test").innerHTML = lista; //Comando Para Copiar array para um elemento do HTML 
+//document.getElementById("test").innerHTML = lista.join(" * "); //Comando para trocar as vírgulas entre os itens da array
+document.getElementById("test").innerHTML = lista.join(" ");
