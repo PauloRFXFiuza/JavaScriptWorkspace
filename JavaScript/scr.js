@@ -317,4 +317,4 @@ E assim por diante.
 
 let lista = ["arroz","feijão","macarrão","leite"];
 console.log(lista[0]);
-console.log(lista[0],lista[1]);
+console.log(lista[0],lista[1]) ;
