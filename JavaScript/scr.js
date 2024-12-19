@@ -378,6 +378,12 @@ console.log(lista[2]);
 
 let lista2 = ["suco","refrigerante","cerveja","cachaça"];
 console.log(lista2);
+
 let listaTotal = lista.concat(lista2); //Comando para juntar uma array em outra
 console.log(listaTotal);
+
 document.getElementById("test2").innerHTML = listaTotal.join(" ");
+listaTotal = lista2.concat(lista);
+
+document.getElementById("test3").innerHTML = listaTotal.join(" ");
+console.log(listaTotal);
