@@ -400,3 +400,4 @@ let goatFootballPlayer = footballPlayers.slice(5,6);// .slice(N,M) - elimina os 
 console.log(goatFootballPlayer);
 
 console.log(footballPlayers.sort()); //Comando para organizar em ordem alfabética 
+console.log(footballPlayers.reverse()); //Comando para organizar em ordem reversa alfabética 
