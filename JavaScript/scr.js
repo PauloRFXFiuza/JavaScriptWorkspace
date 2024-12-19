@@ -401,3 +401,10 @@ console.log(goatFootballPlayer);
 
 console.log(footballPlayers.sort()); //Comando para organizar em ordem alfabética 
 console.log(footballPlayers.reverse()); //Comando para organizar em ordem reversa alfabética 
+
+let numbers = [-1, 10, 21, 54, -210.2, 12012020, 1.2123, 1.2124, 10000.121, -122022020.1];
+console.log(numbers);
+let sortNumbers= numbers.sort(function(a,b){return a-b}); //X.sort(function(a,b){return a-b})- Comando para organizar em ordem numérica uma array X contendo apenas números
+console.log(sortNumbers);
+let reverseSortNumbers= numbers.sort(function(a,b){return b-a}); //X.sort(function(a,b){return b-a})- Comando para organizar em ordem reversa numérica uma array X contendo apenas números
+console.log(reverseSortNumbers);
