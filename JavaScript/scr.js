@@ -315,6 +315,6 @@ A lista[1] (lista na posição 1) vai conter o valor "feijão".
 E assim por diante.
 */
 
-const lista = ["arroz","feijão","macarrão","leite"];
+let lista = ["arroz","feijão","macarrão","leite"];
 console.log(lista[0]);
 console.log(lista[0],lista[1]);
