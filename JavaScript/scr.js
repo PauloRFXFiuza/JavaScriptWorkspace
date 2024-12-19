@@ -369,6 +369,9 @@ delete lista[2]; //Comando para remover item específico da array, porém não h
 //document.getElementById("test").innerHTML = lista; //Comando Para Copiar array para um elemento do HTML 
 //document.getElementById("test").innerHTML = lista.join(" * "); //Comando para trocar as vírgulas entre os itens da array
 console.log(lista);
+//x.splice(A,B, item1, item..., itemN) - A= a partir de qual índice serão adicionados os itens na array x,... 
+// ...B= quantos itens serão removidos a partir do índice B, item1,..., itemN - sequência dos itens que serão adicionados a partir do indice A  
+lista.splice(4, 0, "cebola", "alho", "pimenta", 3, true)
 document.getElementById("test").innerHTML = lista.join(" ");
 console.log(lista);
 console.log(lista[2]);
