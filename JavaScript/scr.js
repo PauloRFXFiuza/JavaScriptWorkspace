@@ -414,3 +414,13 @@ console.log(maxNumber);
 
 let minNumber= Math.min.apply(null,numbers); //Math.min.apply(null,x) - comando que devolve o valor mínimo de uma array x
 console.log(minNumber);
+
+// Comandos para filtrar e retornar valores maiores que 20 em uma array 
+
+function filtragem(value, index, array) {
+    return value > 20;
+}
+
+const maioresQue20 = numbers.filter(filtragem);
+
+console.log(maioresQue20);
