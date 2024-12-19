@@ -340,3 +340,6 @@ let person2 = {nome:"Paulo", sobrenome:"Fiuza", idade:33}; //objeto
 
 let y=person1[0]; console.log(y);
     y=person2.nome; console.log(y);
+
+console.log(person1.length); //quantidade de itens dentro de uma array
+console.log(person1[person1.length-1]); //para se obter o último item da array
