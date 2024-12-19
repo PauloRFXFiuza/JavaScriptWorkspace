@@ -425,5 +425,13 @@ const maioresQue20 = numbers.filter(filtragem);
 
 console.log(maioresQue20);
 */
-
 /* 13 */ 
+var interruptor= "ligado";
+console.log("O interruptor está " + interruptor + ".\n");
+if (interruptor === "desligado"){
+    var lampada = "desligada"
+    console.log("A lâmpada está "+ lampada+ ".\n")
+}else{
+    var lampada = "ligada"
+    console.log("A lâmpada está "+ lampada+ ".\n")
+}
