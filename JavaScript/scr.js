@@ -329,3 +329,8 @@ console.log(lista2);
 
 let lista3 = new Array("linguiça","rúcula",0, true); 
 console.log(lista3);
+
+let x = lista[2];
+console.log(x);
+x= [lista[2],lista2[0],lista3[2]];
+console.log(x);
