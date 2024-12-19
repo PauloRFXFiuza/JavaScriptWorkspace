@@ -335,5 +335,8 @@ console.log(x);
 x= [lista[2],lista2[0],lista3[2]];
 console.log(x);
 
-let people = ["Paulo", "Fiuza", 33]; //array
-    people = {nome:"Paulo", sobrenome:"Fiuza", idade:33}; //objeto
+let person1 = ["Paulo", "Fiuza", 33]; //array
+let person2 = {nome:"Paulo", sobrenome:"Fiuza", idade:33}; //objeto
+
+let y=person1[0]; console.log(y);
+    y=person2.nome; console.log(y);
