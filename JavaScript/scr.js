@@ -298,8 +298,8 @@ function addText() {
 }
 
 */
-/* 11 */
-/*
+/* 11 
+//
 ARRAYS
 Os arrays JavaScript são usados para armazenar vários valores em uma única variável. Diferente dos objetos, 
 que funcionam com propriedades ou "nomes" que você dá para os itens dentro dele, os arrays não possuem propriedades. 
@@ -313,7 +313,7 @@ A lista[0] (lista na posição 0) vai conter o valor "arroz".
 A lista[1] (lista na posição 1) vai conter o valor "feijão".
 
 E assim por diante.
-*/
+//
 //             [0]      [1]      [2]       [3]                       
 let lista = ["arroz","feijão","macarrão","leite"];
 console.log(lista[0]);
@@ -351,3 +351,6 @@ person1[person1.length] = false; //outra maneira de se adicionar um item na arra
 console.log(person1);
 
 console.log(Array.isArray(person1)); //para saber se a variável é uma array (true); se não é (false)
+
+*/
+/* 12 */
