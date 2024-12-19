@@ -359,6 +359,7 @@ let lista = ["manga","arroz","feijão","macarrão","leite","linguiça","bisteca"
 lista.pop(); //Comando para remover último item da array
 lista.push("cenoura"); //Comando Para se adicionar um item na última posição da array
 lista.shift(); //Comando para remover primeiro item da array
+lista.unshift("cenoura"); //Comando Para se adicionar um item na primeira posição da array
 //document.getElementById("test").innerHTML = lista; //Comando Para Copiar array para um elemento do HTML 
 //document.getElementById("test").innerHTML = lista.join(" * "); //Comando para trocar as vírgulas entre os itens da array
 document.getElementById("test").innerHTML = lista.join(" ");
