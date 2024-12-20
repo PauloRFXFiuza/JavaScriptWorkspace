@@ -487,8 +487,8 @@ function verificaCor () {
             p.style.color = "green";
             break;
         case "vermelho":
-        p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
-        p.style.color = "red";
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "red";
         break;
         case "preto":
             p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
