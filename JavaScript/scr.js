@@ -467,3 +467,17 @@ function verificar() {
 
 /* 14 */
 
+function verificaCor () {
+    var cor = document.getElementById("cor").value;
+    var p = document.getElementById("corEscolhida");
+
+    switch (cor) {
+        case "azul":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "blue";
+            break;
+        default:
+            p.innerHTML = "Você errou, tente novamente.\n"
+    }
+}
+
