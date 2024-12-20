@@ -534,6 +534,6 @@ function calculaTabuada () {
 }
 */
 
-for (let i=2024; i>=1850; i--){
+for (let i=new Date().getFullYear(); i>=1850; i--){
     document.getElementById("ano").innerHTML += " <option value='"+i+"'> " +i+"</option>";
 }
