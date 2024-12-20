@@ -14,7 +14,7 @@ function calculaTabuada () {
 
     for (let i=0; i<=5000; i= i+tabuada){
         indice++;
-        document.getElementById("test").innerHTML += indice + " x "+tabuada+" = "+i+"<br>"; // += é um operador para se acrescentar elementos sem perder os passos anteriores
+        document.getElementById("test").innerHTML += tabuada+ " x "+indice+" = "+i+"<br>"; // += é um operador para se acrescentar elementos sem perder os passos anteriores
         document.getElementById("test").style.color = "rgb(209, 167, 247)"
     }
 }
