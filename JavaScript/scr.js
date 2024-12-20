@@ -520,6 +520,7 @@ function verificaCor () {
 }
 */
 /* 15 */
+/*
 function calculaTabuada () {
     let tabuada = Number(document.getElementById("tabuada").value);
     let indice = -1;
@@ -531,3 +532,4 @@ function calculaTabuada () {
         document.getElementById("test").style.color = "rgb(209, 167, 247)"
     }
 }
+*/
