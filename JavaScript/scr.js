@@ -472,8 +472,7 @@ function verificar() {
     }
 }
 */
-
-/* 14 */
+/* 14
 
 function verificaCor () {
     var cor = document.getElementById("cor").value;
@@ -519,4 +518,5 @@ function verificaCor () {
             p.innerHTML = "Você errou, tente novamente.\n"
     }
 }
-
+*/
+/* 15 */
