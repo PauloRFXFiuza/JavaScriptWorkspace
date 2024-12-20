@@ -451,6 +451,18 @@ if (hour<12) {
     console.log("Boa noite!");
 }
     
+function verificar() {
+    var nome = document.getElementById("nome").value;
+    var p = document.getElementById("test");
+
+    if (nome === "" || nome === null) {
+        p.innerHTML = "O campo não pode ser vazio";
+        p.style.color = "red";
+    }else{
+        p.innerHTML = "Campo salvo com sucesso";
+        p.style.color = "rgb(209, 167, 247)";
+    }
+}
 
 
 
