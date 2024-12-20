@@ -468,8 +468,8 @@ function verificar() {
 /* 14 */
 
 function verificaCor () {
-    var color = document.getElementById("cor").value;
-    var cor= color.toLowerCase(); //x.toLowerCase()- comando para deixar a variável x com letras minúsculas
+    var cor = document.getElementById("cor").value;
+    cor= cor.toLowerCase(); //x= x.toLowerCase()- comando para deixar a variável x com letras minúsculas
 
     var p = document.getElementById("corEscolhida");
 
