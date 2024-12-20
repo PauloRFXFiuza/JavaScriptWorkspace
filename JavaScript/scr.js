@@ -1,5 +1,13 @@
 var date = new Date();
 console.log(date);
+
+var horarioLocal = new Date().toLocaleTimeString();
+var dataDeHoje = new Date().toDateString();
+console.log(dataDeHoje);
+console.log(horarioLocal);
+document.getElementById("data").innerHTML="Today is: " +dataDeHoje+ " Now is: "+horarioLocal;
+
+
 /* 01
 alert('Hi! What´s up!');
 */
@@ -469,7 +477,7 @@ function verificar() {
 
 function verificaCor () {
     var cor = document.getElementById("cor").value;
-    cor= cor.toLowerCase(); //x= x.toLowerCase()- comando para deixar a variável x com letras minúsculas
+    cor= cor.toLowerCase(); // x= x.toLowerCase()- comando para deixar a variável x com letras minúsculas
 
     var p = document.getElementById("corEscolhida");
 
