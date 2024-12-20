@@ -533,3 +533,7 @@ function calculaTabuada () {
     }
 }
 */
+
+for (let i=1850; i<2024; i++){
+    document.getElementById("ano").innerHTML += " <option value='"+i+"'> " +i+"</option>";
+}
