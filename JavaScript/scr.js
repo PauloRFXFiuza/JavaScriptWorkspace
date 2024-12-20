@@ -5,7 +5,7 @@ var horarioLocal = new Date().toLocaleTimeString();
 var dataDeHoje = new Date().toDateString();
 console.log(dataDeHoje);
 console.log(horarioLocal);
-document.getElementById("data").innerHTML="Today is: " +dataDeHoje+ " Now is: "+horarioLocal;
+document.getElementById("data").innerHTML="Today is: " +dataDeHoje+ "<br> Now is: "+horarioLocal;
 
 
 /* 01
