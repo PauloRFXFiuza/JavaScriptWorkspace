@@ -427,7 +427,7 @@ const maioresQue20 = numbers.filter(filtragem);
 
 console.log(maioresQue20);
 */
-/* 13 */ 
+/* 13  
 
 var interruptor= "ligado";
 console.log("O interruptor está " + interruptor + ".\n");
@@ -463,7 +463,7 @@ function verificar() {
         p.style.color = "rgb(209, 167, 247)";
     }
 }
+*/
 
-
-
+/* 14 */
 
