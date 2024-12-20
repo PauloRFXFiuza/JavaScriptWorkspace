@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tabuada</title>
+    
+    <style>
+        header{
+            padding: 20px;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: left;
+            color: rgb(209, 167, 247);
+        }
+        body{
+            text-align: center;
+            background-color: rgb(49, 49, 49);
+        }
+        ::placeholder{
+            color: rgb(209, 167, 247);
+        }
+ 
+    </style>
+    
+</head>
+<header>
+    <p id="data">A</p>    
+</header>
+
+<body>   
+
+    <input 
+    style= "border-radius:2px 2px 20px 2px; padding:15px; width:50vh; font-size:14px; background-color: black; color:rgb(159, 60, 252)"
+    type="text" id="tabuada" placeholder="Insira um número ao qual seja calculada a tabuada"
+    >
+    <br><br>
+    <button onclick="calculaTabuada()" style= "border-radius:2px 2px 20px 2px; padding:8px; width:20vh; font-size:13px; background-color: rgb(22, 22, 22); color:rgb(159, 60, 252); cursor: pointer;">
+    Calcular Tabuada
+    </button>
+    <h3 id="titulo"></h3> 
+    <p id="test"></p> 
+    
+    
+
+    <script src="JavaScript/tabuada.js"></script>
+    
+
+</body>
+</html>
