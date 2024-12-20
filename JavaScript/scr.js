@@ -1,3 +1,5 @@
+var date = new Date();
+console.log(date);
 /* 01
 alert('Hi! What´s up!');
 */
@@ -426,6 +428,7 @@ const maioresQue20 = numbers.filter(filtragem);
 console.log(maioresQue20);
 */
 /* 13 */ 
+
 var interruptor= "ligado";
 console.log("O interruptor está " + interruptor + ".\n");
 if (interruptor === "desligado"){
@@ -435,3 +438,12 @@ if (interruptor === "desligado"){
     var lampada = "ligada"
     console.log("A lâmpada está "+ lampada+ ".\n")
 }
+
+var hour = new Date().getHours();
+var minutes = new Date().getMinutes();
+console.log("Agora são "+hour+" horas e "+minutes+" minutos.\n");
+
+
+
+
+
