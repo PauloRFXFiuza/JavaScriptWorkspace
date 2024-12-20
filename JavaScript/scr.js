@@ -520,7 +520,14 @@ function verificaCor () {
 }
 */
 /* 15 */
-for (let i=0; i<=100000; i= i+13){
-    document.getElementById("test").innerHTML += i + ", "; // += é um operador para se acrescentar elementos sem perder os passos anteriores
-    document.getElementById("test").style.color = "rgb(209, 167, 247)"
+function calculaTabuada () {
+    let tabuada = Number(document.getElementById("tabuada").value);
+    let indice = -1;
+    console.log(tabuada);
+
+    for (let i=0; i<=5000; i= i+tabuada){
+        indice++;
+        document.getElementById("test").innerHTML += indice + " x "+tabuada+" = "+i+"<br>"; // += é um operador para se acrescentar elementos sem perder os passos anteriores
+        document.getElementById("test").style.color = "rgb(209, 167, 247)"
+    }
 }
