@@ -481,9 +481,30 @@ function verificaCor () {
             p.style.color = "white";
             break;
         case "verde":
-            p.innerHTML = "Parabéns! " + cor +" é uma linda nojenta!\n"
+            p.innerHTML = "Parabéns! " + cor +" é uma cor nojenta!\n"
             p.style.color = "green";
             break;
+        case "vermelho":
+        p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+        p.style.color = "red";
+        break;
+        case "preto":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "black";
+            break;        
+        case "laranja":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "darkorange";
+            break;        
+        case "cinza":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "gray";
+            break;        
+        case "rosa":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "rgb(161, 80, 238)";
+            break;
+                    
         default:
             p.innerHTML = "Você errou, tente novamente.\n"
     }
