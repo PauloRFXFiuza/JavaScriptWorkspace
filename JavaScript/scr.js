@@ -476,6 +476,14 @@ function verificaCor () {
             p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
             p.style.color = "blue";
             break;
+        case "branco":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda cor!\n"
+            p.style.color = "white";
+            break;
+        case "verde":
+            p.innerHTML = "Parabéns! " + cor +" é uma linda nojenta!\n"
+            p.style.color = "green";
+            break;
         default:
             p.innerHTML = "Você errou, tente novamente.\n"
     }
