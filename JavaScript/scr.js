@@ -623,15 +623,22 @@ var carro = {
 
 //Construindo uma Classe (class)
 class Carro{
-    constructor(valor1, valor2, valor3){
-        this.marca = valor1;
-        this.modelo = valor2;
-        this.ano = valor3;
+    constructor(v1, v2, v3, v4, v5, v6){
+        this.marca = v1;
+        this.modelo = v2;
+        this.ano = v3;
+        this.motor = v4;
+        this.valvulas = v5;
+        this.combustivel = v6;
     };
 };
 
-//Criando uma variável e passando as características da class Carro
-var uno = new Carro("Fiat","Uno", 2001);
+// Criando variáveis, neste contexto, os carros 
+// e passando as características da class Carro
 
-console.log(uno);
+var uno = new Carro("Fiat","Uno", 2001, "1.0", 8, "gasolina") ,
+gol = new Carro("Volkswagen","Gol", 2010, "1.6", 16, "flex") ,
+chevette = new Carro("Chevrolet","Chevette", 1986, "1.4", 8, "álcool") ;
+
+console.log(uno, gol, chevette);
 
