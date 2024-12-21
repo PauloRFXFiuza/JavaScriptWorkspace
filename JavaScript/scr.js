@@ -636,7 +636,7 @@ class Carro{
         this.combustivel = v6;
     };
     buzina(){
-        return "BiBiiii!"
+        return this.modelo + " buzinou: BiBiiii!";
     }
 };
 
@@ -650,6 +650,6 @@ chevette = new Carro("Chevrolet","Chevette", 1986, "1.4", 8, "álcool") ;
 console.log(uno, gol, chevette);
 
 console.log(gol.ano), console.log(chevette.combustivel), console.log(gol.motor)
-console.log(uno.motor), console.log(uno.valvulas); 
+console.log(uno.motor), console.log(uno.valvulas), console.log(gol.buzina()); 
 
 
