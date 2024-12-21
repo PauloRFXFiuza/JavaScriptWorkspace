@@ -559,4 +559,4 @@ setTimeout(function, tempo em milissegundos)
 
 setInterval(function, milliseconds)
 -> É o mesmo que setTimeout(), mas repete a execução da função continuamente.
-*/
+ */
