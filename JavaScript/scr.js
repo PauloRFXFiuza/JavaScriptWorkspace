@@ -579,9 +579,6 @@ function definirTemporizador(){
     document.getElementById("tempo2").innerHTML = input
 }
 
-
-
-
 function temporizador(){
         tempo2= setInterval(function(){
             var cronometro = document.getElementById("tempo2").innerHTML;
