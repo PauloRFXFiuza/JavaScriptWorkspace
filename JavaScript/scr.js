@@ -560,3 +560,15 @@ setTimeout(function, tempo em milissegundos)
 setInterval(function, milliseconds)
 -> É o mesmo que setTimeout(), mas repete a execução da função continuamente.
  */
+function ativarContagem(){
+    document.getElementById("tempo").innerHTML = "Começou a contar!";
+    setTimeout(function(){
+        document.getElementById("tempo").innerHTML = 
+        "Executou programa de contagem!";
+        document.getElementById("tempo").style.backgroundColor = "blue";
+        document.getElementById("tempo").style.borderRadius = "15px 5px 5px 5px";
+    }, 3000);
+};
+function pararContagem(){
+
+};
