@@ -26,7 +26,7 @@
             background-color: rgb(242, 190, 243);
             border-radius:2px 2px 20px 2px;
         }
-        .start{
+        .start,.start2{
             background-color: rgb(242, 190, 243);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border-radius:5px 5px 20px 5px;
@@ -35,7 +35,7 @@
             font-weight: bold;
             cursor: pointer;
         }
-        .stop{
+        .stop,.stop2{
             background-color: rgb(239, 52, 242);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border-radius:20px 5px 5px 5px;
@@ -117,10 +117,15 @@
     <p id="carros"></p>
     -->
     <!--16-->
-    <h1>Controle de tempo</h1>
-    <h3 id="tempo">0</h3>
+    <h1>Set Timeout</h1>
+    <h3 id="tempo"></h3>
     <button onclick="ativarContagem()" class="start">Ativar Contagem</button>
     <button onclick="pararContagem()" class="stop">Parar Contagem</button>
+
+    <h1>Set Interval</h1>
+    <h3 id="tempo2">0</h3>
+    <button onclick="ativarContagem2()" class="start2">Ativar Contagem</button>
+    <button onclick="pararContagem2()" class="stop2">Parar Contagem</button>
     
     <!-- 01 Exemplo de JS externo-->
     <script src="JavaScript/scr.js"></script>
