@@ -652,4 +652,9 @@ console.log(uno, gol, chevette);
 console.log(gol.ano), console.log(chevette.combustivel), console.log(gol.motor)
 console.log(uno.motor), console.log(uno.valvulas), console.log(gol.buzina()); 
 
+//Realizar mudanças nas variáveis
+
+gol.ano = 2012;
+console.log(gol);
+
 
