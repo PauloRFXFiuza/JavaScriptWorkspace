@@ -547,8 +547,8 @@ for (var i=0; i<tamanho; i++){
     document.getElementById("carros").style.color = "rgb(209, 167, 247)";
 }
 */
-/* 16 */
-/* EVENTOS DE TEMPO COM JAVASCRIPT
+/* 16 
+// EVENTOS DE TEMPO COM JAVASCRIPT
 
 Os eventos de tempo permitem a execução do código em intervalos de tempo especificados. Esses intervalos de tempo são chamados de eventos de cronometragem.
 
@@ -559,7 +559,7 @@ setTimeout(function, tempo em milissegundos)
 
 setInterval(function, milliseconds)
 -> É o mesmo que setTimeout(), mas repete a execução da função continuamente.
- */
+ //
 function ativarContagem(){
     document.getElementById("tempo").innerHTML = "Começou a contar!";
     tempo = setTimeout(function(){
@@ -597,3 +597,4 @@ function parar(){
     clearInterval(tempo2);
     
 };
+*/
