@@ -519,8 +519,8 @@ function verificaCor () {
     }
 }
 */
-/* 15 */
-/*
+/* 15 
+//
 function calculaTabuada () {
     let tabuada = Number(document.getElementById("tabuada").value);
     let indice = -1;
@@ -532,7 +532,7 @@ function calculaTabuada () {
         document.getElementById("test").style.color = "rgb(209, 167, 247)"
     }
 }
-*/
+//
 
 for (let i=new Date().getFullYear(); i>=1850; i--){
     document.getElementById("ano").innerHTML += " <option value='"+i+"'> " +i+"</option>";
@@ -544,5 +544,8 @@ console.log(carros); console.log(tamanho);
 
 for (var i=0; i<tamanho; i++){
     document.getElementById("carros").innerHTML += "Carro "+(i+1)+" : "+carros[i]+" <br>"
-    document.getElementById("carros").style.color = "rgb(209, 167, 247)"
+    document.getElementById("carros").style.color = "rgb(209, 167, 247)";
 }
+*/
+/* 16 */
+
