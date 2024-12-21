@@ -617,9 +617,13 @@ chamado constructor() para fabricar os objetos.
 //Construindo um Objeto
 var carro = {
     marca: "Fiat",
-    modelo: "Uno",
-    ano: 2001
+    modelo: "Tipo",
+    ano: 1995,
+    motor: "1.0",
+    valvulas: 8,
+    combustivel: "gasolina"
 };
+console.log(carro);
 
 //Construindo uma Classe (class)
 class Carro{
