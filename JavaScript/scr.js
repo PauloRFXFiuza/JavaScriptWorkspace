@@ -574,17 +574,29 @@ function pararContagem(){
     document.getElementById("tempo").innerHTML = "Contagem Encerrada!";
 };
 
-function ativarContagem2(){
-    document.getElementById("tempo2").innerHTML = "Começou a contar!";
-    tempo2 = setInterval(function(){
-                var cronometro= document.getElementById("tempo2");
-                var soma = parseInt(cronometro) + 1;
-                document.getElementById("tempo2").style.backgroundColor = "rgb(166, 134, 105)";
-                document.getElementById("tempo2").style.borderRadius = "15px 5px 5px 5px";
-                document.getElementById("tempo2").innerHTML = soma;
-                }, 1000);
+function definirTemporizador(){
+    var input= document.getElementById("inputTemporizador").value;
+    document.getElementById("tempo2").innerHTML = input
+}
+
+
+
+
+function temporizador(){
+        tempo2= setInterval(function(){
+            var cronometro = document.getElementById("tempo2").innerHTML;
+            var subtrair = parseInt(cronometro) - 1; 
+
+            if (subtrair === 0){
+                document.getElementById("tempo2").innerHTML = "Contagem Encerrada!";
+                parar();
+            }else{
+                document.getElementById("tempo2").innerHTML= subtrair;
+            }
+        },1000);
 };
-function pararContagem2(){
+
+function parar(){
     clearInterval(tempo2);
-    document.getElementById("tempo2").innerHTML = "Contagem Encerrada!";
+    
 };
