@@ -635,6 +635,9 @@ class Carro{
         this.valvulas = v5;
         this.combustivel = v6;
     };
+    buzina(){
+        return "BiBiiii!"
+    }
 };
 
 // Criando variáveis, neste contexto, os carros 
