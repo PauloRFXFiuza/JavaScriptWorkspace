@@ -537,3 +537,5 @@ function calculaTabuada () {
 for (let i=new Date().getFullYear(); i>=1850; i--){
     document.getElementById("ano").innerHTML += " <option value='"+i+"'> " +i+"</option>";
 }
+
+let carros = ["Gol", "Fusca", "Brasília", "Del Rey", "Chevette"];
