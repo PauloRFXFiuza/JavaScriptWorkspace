@@ -619,7 +619,7 @@ var carro = {
     marca: "Fiat",
     modelo: "Uno",
     ano: 2001
-}
+};
 
 //Construindo uma Classe (class)
 class Carro{
@@ -627,9 +627,11 @@ class Carro{
         this.marca = valor1;
         this.modelo = valor2;
         this.ano = valor3;
-    }
-}
+    };
+};
 
 //Criando uma variável e passando as características da class Carro
-var uno = new Carro("Fiat","Uno", 2001)
+var uno = new Carro("Fiat","Uno", 2001);
+
+console.log(uno);
 
