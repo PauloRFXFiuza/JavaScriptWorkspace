@@ -538,6 +538,11 @@ for (let i=new Date().getFullYear(); i>=1850; i--){
     document.getElementById("ano").innerHTML += " <option value='"+i+"'> " +i+"</option>";
 }
 
-var carros = ["Gol", "Fusca", "Brasília", "Del Rey", "Chevette"];
-var tamanho = carros.length;
+var carros = ["Gol", "Fusca", "Brasília", "Del Rey", "Chevette"], 
+tamanho = carros.length;
 console.log(carros); console.log(tamanho);
+
+for (var i=0; i<tamanho; i++){
+    document.getElementById("carros").innerHTML += "Carro "+(i+1)+" : "+carros[i]+" <br>"
+    document.getElementById("carros").style.color = "rgb(209, 167, 247)"
+}
