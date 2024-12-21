@@ -613,3 +613,20 @@ Assim como uma fábrica da vida real precisa das máquinas para
 construir os objetos, as Classes no JavaScript usam um método 
 chamado constructor() para fabricar os objetos.
 */
+
+//Construindo um Objeto
+var carro = {
+    marca: "Fiat",
+    modelo: "Uno",
+    ano: 2001
+}
+
+//Construindo uma classe
+class Carro{
+    constructor(valor1, valor2, valor3){
+        this.marca = valor1;
+        this.modelo = valor2;
+        this.ano = valor3;
+    }
+}
+
