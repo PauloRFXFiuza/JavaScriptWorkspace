@@ -660,3 +660,6 @@ gol.ano = 2012;
 console.log(gol);
 */
 /* 18 */
+
+var data = new Date(); console.log("Data e horário completo de hoje:\n" + data);
+var year = data.getFullYear(); console.log("Ano atual:\n" + year);
