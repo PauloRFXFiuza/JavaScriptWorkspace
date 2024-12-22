@@ -701,3 +701,13 @@ var diaLiteral = diasDaSemana[data.getDay()]; console.log("Dia da semana:\n" + d
 var hora = data.getHours(); console.log("Hora Atual:\n" + hora);
 //Minutos- De 0 a 59
 var minutos = data.getMinutes(); console.log("Minuto Atual:\n" + minutos);
+//Segundos- De 0 a 59
+var segundos = data.getSeconds(); console.log("Segundo Atual:\n" + segundos);
+//Milissegundos- De 0 a 999
+var milissegundos = data.getMilliseconds(); console.log("Milissegundo Atual:\n" + milissegundos);
+//Data e hora no formato brasileiro- dia/mês/ano e hh:mm:ss
+var dataEHoraBR= data.toLocaleString('pt-BR'); console.log(dataEHoraBR);
+//Data no formato brasileiro- dia/mês/ano
+var dataBR= data.toLocaleDateString('pt-BR'); console.log(dataBR);
+//Horário no formato brasileiro- hh:mm:ss
+var horaBR= data.toLocaleTimeString('pt-BR'); console.log(horaBR);
