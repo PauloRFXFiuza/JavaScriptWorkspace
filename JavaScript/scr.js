@@ -794,3 +794,11 @@ document.getElementById("area").innerHTML= texto2;
 //Coverter texto JSON para objeto
 var objeto2 = JSON.parse(texto2);
 console.log(objeto2.motor[1]);
+
+//Para o exemplo a seguir- consultar o site
+//viacep.com.br
+var ajax = XMLHttpRequest(); 
+//XMLHttpRequest()- realiza acesso a um site sem necessitar acessá-lo pelo navegador
+ajax.open("GET", "https:viacep.com.br/ws/09791490/json/"); 
+//https:viacep.com.br/ws/00000000/json/ - endereço do site viacep
+// - 09791490-cep da minha casa
