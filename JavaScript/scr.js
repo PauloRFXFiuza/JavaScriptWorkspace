@@ -677,7 +677,7 @@ console.log(uno.motor), console.log(uno.valvulas), console.log(gol.buzina());
 gol.ano = 2012;
 console.log(gol);
 */
-/* 18 */
+/* 18
 
 //Data e horário completo de hoje
 var data = new Date(); console.log("Data e horário completo de hoje:\n" + data);
@@ -735,3 +735,5 @@ diferenca = Math.ceil((dataFinal - dataInicial)/(24*60*60*1000));
 // ou seja: Math.ceil(5.99999)=6
 //24*60*60*1000 = 86400000 - quantidade de milissegundos em um dia
 console.log(diferenca);
+*/
+/* 19 */
