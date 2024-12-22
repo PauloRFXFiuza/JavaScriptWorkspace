@@ -797,8 +797,24 @@ console.log(objeto2.motor[1]);
 
 //Para o exemplo a seguir- consultar o site
 //viacep.com.br
-var ajax = XMLHttpRequest(); 
+var cep = "09791490"; // - 09791490-cep da minha casa
+var ajax = new XMLHttpRequest(); 
 //XMLHttpRequest()- realiza acesso a um site sem necessitar acessá-lo pelo navegador
-ajax.open("GET", "https:viacep.com.br/ws/09791490/json/"); 
+ajax.open("GET", "https:viacep.com.br/ws/"+cep+"/json/"); 
+ajax.send() //x.send() - enviar solicitação ao site
 //https:viacep.com.br/ws/00000000/json/ - endereço do site viacep
-// - 09791490-cep da minha casa
+ajax.onload = function() {
+    document.getElementById("area2").innerHTML= this.responseText;
+}
+
+function buscarCEP() {
+    let input = document.getElementById('cep').value;
+
+    const ajax = new XMLHttpRequest();
+    ajax.open('GET', 'https://viacep.com.br/ws/' + input + '/json/');
+    ajax.send();
+
+    ajax.onload = function () {
+        document.getElementById('texto').innerHTML = this.responseText;
+    }
+}
