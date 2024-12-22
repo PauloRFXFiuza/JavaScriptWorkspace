@@ -711,3 +711,17 @@ var dataEHoraBR= data.toLocaleString('pt-BR'); console.log(dataEHoraBR);
 var dataBR= data.toLocaleDateString('pt-BR'); console.log(dataBR);
 //Horário no formato brasileiro- hh:mm:ss
 var horaBR= data.toLocaleTimeString('pt-BR'); console.log(horaBR);
+
+//Comparação de Datas
+var hoje= new Date();
+var vencimento= new Date(2025, 0, 10);
+
+if (hoje > vencimento){
+    console.log("Sua Conta Está Vencida! Favor Regularizar Pagamento.");
+}
+else if (hoje == vencimento){
+    console.log("Sua Conta Vence Hoje! Ainda Dá Tempo Para Regularizar Pagamento.");
+} 
+else{
+    console.log("Sua Conta Ainda Não Venceu. Tudo certo!");
+}
