@@ -774,3 +774,12 @@ console.log(texto.modelo);
 //Coverter texto JSON para objeto
 var objeto = JSON.parse(texto);
 console.log(objeto.modelo);
+
+var carro2 = {
+    marca: "Fiat",
+    modelo: "Uno",
+    ano: 1998,
+    motor: ["1.6","1.4","1.0"],
+    valvulas: [8,16],
+    combustivel: ["álcool","gasolina"]
+};
