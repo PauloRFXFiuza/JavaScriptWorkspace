@@ -736,9 +736,9 @@ diferenca = Math.ceil((dataFinal - dataInicial)/(24*60*60*1000));
 //24*60*60*1000 = 86400000 - quantidade de milissegundos em um dia
 console.log(diferenca);
 */
-/* 19 */
+/* 19 
 
-/* 
+// 
 JSON 
 
 JSON significa JavaScript Object Notation que traduzido pro 
@@ -754,7 +754,7 @@ Para trabalhar com JSON no Javascript usamos dois métodos:
 
 JSON.parse() -> Converte texto no padrão JSON em objetos
 JSON.stringify() -> Converte objetos em texto padrão JSON
-*/
+//
 
 var carro = {
     marca: "Fiat",
@@ -818,3 +818,4 @@ function buscarCEP() {
         document.getElementById('texto').innerHTML = this.responseText;
     }
 }
+*/
