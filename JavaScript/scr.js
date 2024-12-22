@@ -661,5 +661,21 @@ console.log(gol);
 */
 /* 18 */
 
+//Data e horário completo de hoje
 var data = new Date(); console.log("Data e horário completo de hoje:\n" + data);
-var year = data.getFullYear(); console.log("Ano atual:\n" + year);
+//Dia do Mês
+var diaDoMes= data.getDate(); console.log("Hoje é dia:\n" + diaDoMes);
+//Mês Atual- Formato numérico- 0= janeiro,1=fevereiro,...,11=dezembro
+var mes = data.getMonth(); console.log("Mês atual:\n" + mes);
+//Mês Atual no formato literal em português
+var mesesDoAno = ["Janeiro", "Fevereiro", "Março","Abril", "Maio", "Junho", "Julho",
+                    "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+var mesLiteral = mesesDoAno[data.getMonth()]; console.log("Mês atual:\n" + mesLiteral);
+//Ano atual com 4 dígitos
+var ano = data.getFullYear(); console.log("Ano atual:\n" + ano);
+//Dia da Semana- Formato numérico- 0=domingo,1=segunda,...,6-sábado
+var diaDaSemana = data.getDay(); console.log("Dia da semana:\n" + diaDaSemana);
+//Dia da Semana no formato literal em português
+var diasDaSemana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira",
+                    "Quinta-Feira", "Sexta-Feira", "Sábado"];
+var diaLiteral = diasDaSemana[data.getDay()]; console.log("Dia da semana:\n" + diaLiteral);
