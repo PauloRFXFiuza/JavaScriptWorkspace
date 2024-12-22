@@ -647,8 +647,10 @@ var uno = new Carro("Fiat","Uno", 2001, "1.0", 8, "gasolina") ,
 gol = new Carro("Volkswagen","Gol", 2010, "1.6", 16, "flex") ,
 chevette = new Carro("Chevrolet","Chevette", 1986, "1.4", 8, "álcool") ;
 
+//verificando os resultados das variáveis
 console.log(uno, gol, chevette);
 
+//chamando parâmetros específicos de cada variável
 console.log(gol.ano), console.log(chevette.combustivel), console.log(gol.motor)
 console.log(uno.motor), console.log(uno.valvulas), console.log(gol.buzina()); 
 
