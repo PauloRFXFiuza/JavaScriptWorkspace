@@ -699,3 +699,5 @@ var diasDaSemana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira",
 var diaLiteral = diasDaSemana[data.getDay()]; console.log("Dia da semana:\n" + diaLiteral);
 //Hora- De 0 a 23
 var hora = data.getHours(); console.log("Hora Atual:\n" + hora);
+//Minutos- De 0 a 59
+var minutos = data.getMinutes(); console.log("Minuto Atual:\n" + minutos);
