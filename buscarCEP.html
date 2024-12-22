@@ -21,31 +21,10 @@
             }
             ::placeholder{
                 color: rgb(209, 167, 247);
-            }
-            #corEscolhida{
-                background-color: rgb(242, 190, 243);
-                border-radius:2px 2px 20px 2px;
-            }
-            .start{
-                background-color: rgb(242, 190, 243);
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                border-radius:5px 5px 20px 5px;
-                padding:8px; 
-                font-size:18px;
-                font-weight: bold;
-                cursor: pointer;
+                font-weight: 600;
             }
-            .stop{
-                background-color: rgb(239, 52, 242);
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                border-radius:20px 5px 5px 5px;
-                padding:8px; 
-                font-size:18px;
-                font-weight: bold;
-                color: rgb(79, 26, 239);
-                cursor: pointer;
-            }
-            .start2{
+            button{
                 background-color: rgb(242, 190, 243);
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 border-radius:5px 5px 20px 5px;
@@ -55,31 +34,13 @@
                 font-weight: bold;
                 cursor: pointer;
             }
-            .set{
-                background-color: rgb(242, 190, 243);
+            #cep{
+                border-radius:20px 5px 5px 5px; 
+                padding:15px; 
+                width:40vh; 
+                font-size:18px; 
+                font-weight: 600;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                border-radius:5px 5px 20px 5px;
-                padding:8px; 
-                width:150px;
-                font-size:18px;
-                font-weight: bold;
-                cursor: pointer;
-            }
-            .stop2{
-                background-color: rgb(239, 52, 242);
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                border-radius:20px 5px 5px 5px;
-                padding:8px; 
-                width:150px;
-                font-size:18px;
-                font-weight: bold;
-                color: rgb(79, 26, 239);
-                cursor: pointer;
-            }
-            #inputTemporizador{
-                border-radius:5px 5px 20px 5px; 
-                padding:15px; width:40vh; 
-                font-size:14px; 
                 background-color: black; 
                 color:rgb(159, 60, 252);
             }
@@ -92,8 +53,9 @@
 
     <body>
 
-        <h3>Buscador de CEP</h3>
-        <input id="cep" type="text" placeholder="Digite o seu CEP">
+        <h1>Buscador de CEP</h1>
+        <input id="cep" type="text" placeholder="Digite o seu CEP (sem traço)">
+        <br><br>
         <button onclick="buscarCEP()">Buscar CEP</button>
         <p id="texto"></p>
 
