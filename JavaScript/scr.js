@@ -756,3 +756,21 @@ JSON.parse() -> Converte texto no padrão JSON em objetos
 JSON.stringify() -> Converte objetos em texto padrão JSON
 */
 
+var carro = {
+    marca: "Fiat",
+    modelo: "Tipo",
+    ano: 1995,
+    motor: "1.0",
+    valvulas: 8,
+    combustivel: "gasolina"
+};
+//Converter objeto para texto JSON
+var texto= JSON.stringify(carro);
+
+//Inserir o texto JSON para o HTML
+document.getElementById("area").innerHTML= texto;
+console.log(texto.modelo);
+
+//Coverter texto JSON para objeto
+var objeto = JSON.parse(texto);
+console.log(objeto.modelo);
