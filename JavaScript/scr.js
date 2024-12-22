@@ -783,3 +783,14 @@ var carro2 = {
     valvulas: [8,16],
     combustivel: ["álcool","gasolina"]
 };
+
+//Converter objeto para texto JSON
+var texto2= JSON.stringify(carro2);
+
+//Inserir o texto JSON para o HTML
+document.getElementById("area").innerHTML= texto2;
+//console.log(texto2.motor[1]);
+
+//Coverter texto JSON para objeto
+var objeto2 = JSON.parse(texto2);
+console.log(objeto2.motor[1]);
