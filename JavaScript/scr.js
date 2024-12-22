@@ -715,13 +715,23 @@ var horaBR= data.toLocaleTimeString('pt-BR'); console.log(horaBR);
 //Comparação de Datas
 var hoje= new Date();
 var vencimento= new Date(2025, 0, 10);
+var diferencaDias= Math.ceil((vencimento - hoje)/(24*60*60*1000));
 
 if (hoje > vencimento){
-    console.log("Sua Conta Está Vencida! Favor Regularizar Pagamento.");
+    console.log("Sua Conta Está Vencida Há "+diferencaDias+" Dias! Favor Regularizar Pagamento.");
 }
 else if (hoje == vencimento){
     console.log("Sua Conta Vence Hoje! Ainda Dá Tempo Para Regularizar Pagamento.");
 } 
 else{
-    console.log("Sua Conta Ainda Não Venceu. Tudo certo!");
+    console.log("Tudo certo! Faltam "+diferencaDias+" Dias Para Regularizar Pagamento." );
 }
+
+//Diferença entre duas datas em dias
+var dataInicial = new Date(), dataFinal = new Date(2024, 11, 24),
+//Date(2024,11,24)- 24/12/2024
+diferenca = Math.ceil((dataFinal - dataInicial)/(24*60*60*1000));
+//Math.ceil - é a função matemática que devolve o topo- 
+// ou seja: Math.ceil(5.99999)=6
+//24*60*60*1000 = 86400000 - quantidade de milissegundos em um dia
+console.log(diferenca);
