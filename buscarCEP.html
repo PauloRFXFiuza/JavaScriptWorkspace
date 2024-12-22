@@ -24,10 +24,20 @@
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-weight: 600;
             }
-            button{
+            .buscarCEP{
                 background-color: rgb(242, 190, 243);
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 border-radius:5px 5px 20px 5px;
+                padding:8px; 
+                width:150px;
+                font-size:18px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .novaConsulta{
+                background-color: rgb(250, 74, 253);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border-radius:20px 5px 5px 5px;
                 padding:8px; 
                 width:150px;
                 font-size:18px;
@@ -56,10 +66,11 @@
         <h1>Buscador de CEP</h1>
         <input id="cep" type="text" placeholder="Digite o seu CEP (sem traço)">
         <br><br>
-        <button onclick="buscarCEP()">Buscar CEP</button>
+        <button class="buscarCEP" onclick="buscarCEP()">Buscar CEP</button>
+        <button class="novaConsulta" onclick="novaConsulta()">Nova Consulta</button>
         <p id="texto"></p>
 
-        <script src="JavaScript/scr.js"></script>
+        <script src="JavaScript/buscarCEP.js"></script>
 
     </body>
 
